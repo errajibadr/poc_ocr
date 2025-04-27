@@ -35,13 +35,17 @@
 - **Notes**: Selected Modular Hub-and-Spoke Architecture as optimal approach; documented in memory_bank/architecture_design.md
 
 ### Task 3: Create Test Dataset for OCR
-- **Status**: 📋 Planning
+- **Status**: 🔄 In Progress
 - **Description**: Compile a comprehensive test dataset for OCR evaluation by searching the internet for suitable resources.
 - **Subtasks**:
-  - [ ] Research available OCR datasets (academic, open-source)
-  - [ ] Define dataset requirements (language diversity, document types, image qualities)
+  - [x] Research available OCR datasets (academic, open-source)
+  - [x] Define dataset requirements (language diversity, document types, image qualities)
+  - [x] Develop dataset utilities for downloading and processing
+  - [x] Implement data augmentation techniques for creating variations
+  - [x] Create download script for SynthText dataset
+  - [x] Create download script for HierText dataset
+  - [x] Implement dataset inspection and validation utilities
   - [ ] Collect sample documents/images with known text content
-  - [ ] Create additional test samples for edge cases if needed
   - [ ] Preprocess images to create variations (different lighting, noise, rotations)
   - [ ] Prepare ground truth transcriptions for evaluation
   - [ ] Validate dataset for completeness and accuracy
@@ -50,7 +54,7 @@
 - **Priority**: High
 - **Dependencies**: Task 1
 - **Assignee**: TBD
-- **Notes**: Consider including various document types, languages, fonts, and image qualities
+- **Notes**: Implementation in advanced stage; dataset utilities completed in src/ocr_poc/data, download scripts for SynthText and HierText created; details in memory_bank/task3_status.md
 
 ### Task 4: Research OCR Methods
 - **Status**: 📋 Planning
@@ -148,7 +152,7 @@
 - Prepare project structure
 
 ### Phase 2: Research and Data Preparation (Tasks 2-5)
-- 🚀 STARTING
+- 🔄 IN PROGRESS
 - Create test datasets
 - Research OCR methods
 - Design evaluation framework

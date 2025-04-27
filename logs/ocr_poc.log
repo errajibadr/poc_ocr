@@ -1,0 +1,3 @@
+2025-04-27 22:27:42 | INFO     | src.ocr_poc.data.dataset:__init__:211 - Initialized dataset collection at data/raw/my_datasets
+2025-04-27 22:28:44 | INFO     | ocr_poc.data.dataset:__init__:211 - Initialized dataset collection at /Users/badrou/repository/poc_ocr/data/raw/SynthText
+2025-04-27 22:29:01 | INFO     | ocr_poc.data.dataset:__init__:211 - Initialized dataset collection at /Users/badrou/repository/poc_ocr/data/raw/SynthText

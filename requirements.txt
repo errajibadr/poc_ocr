@@ -1,0 +1,22 @@
+# Core requirements
+pillow>=9.0.0         # Image processing
+numpy>=1.21.0         # Numerical computing
+scikit-image>=0.19.0  # Image transformations and processing
+requests>=2.27.0      # HTTP requests
+pydantic>=2.0.0       # Data validation
+
+# OCR engines
+pytesseract>=0.3.9    # Python wrapper for Tesseract OCR engine
+easyocr>=1.6.0        # Easy OCR for multiple languages
+
+# Optional dependencies
+rarfile>=4.0          # For extracting RAR archives (optional)
+
+# Testing
+pytest>=7.0.0
+pytest-cov>=4.0.0
+
+# Development
+black>=22.3.0         # Code formatting
+isort>=5.10.0         # Import sorting
+mypy>=0.950           # Type checking 
